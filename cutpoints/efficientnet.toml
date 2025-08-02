@@ -1,0 +1,13 @@
+[graph_partition]
+cut_points = [
+  [["/conv_stem/Conv_output_0"], ["/blocks/blocks.1/blocks.1.0/conv_pw/Conv_output_0"]],
+  [["/blocks/blocks.1/blocks.1.0/conv_pw/Conv_output_0"], ["/blocks/blocks.2/blocks.2.1/Add_output_0"]],
+  [["/blocks/blocks.2/blocks.2.1/Add_output_0"], ["/blocks/blocks.3/blocks.3.1/Add_output_0"]],
+  [["/blocks/blocks.3/blocks.3.1/Add_output_0"], ["/blocks/blocks.4/blocks.4.2/Add_output_0"]],
+  [["/blocks/blocks.4/blocks.4.2/Add_output_0"], ["/blocks/blocks.5/blocks.5.2/Add_output_0"]],
+  [["/blocks/blocks.5/blocks.5.2/Add_output_0"], ["/blocks/blocks.6/blocks.6.0/se/Mul_output_0"]],
+  [["/blocks/blocks.6/blocks.6.0/se/Mul_output_0"], ["/conv_head/Conv_output_0"]],
+  [["/conv_head/Conv_output_0"], ["648"]],
+]
+
+full_graph = [9,]
